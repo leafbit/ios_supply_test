@@ -8,22 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		FF3C26D01D138F6900EFDDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26CF1D138F6900EFDDEF /* AppDelegate.swift */; };
-		FF3C26D21D138F6900EFDDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26D11D138F6900EFDDEF /* ViewController.swift */; };
 		FF3C26D51D138F6900EFDDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3C26D31D138F6900EFDDEF /* Main.storyboard */; };
 		FF3C26D81D138F6900EFDDEF /* SuppliersTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26D61D138F6900EFDDEF /* SuppliersTest.xcdatamodeld */; };
 		FF3C26DA1D138F6900EFDDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3C26D91D138F6900EFDDEF /* Assets.xcassets */; };
 		FF3C26DD1D138F6900EFDDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3C26DB1D138F6900EFDDEF /* LaunchScreen.storyboard */; };
+		FF3C26E61D138FF400EFDDEF /* Supplier+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26E41D138FF400EFDDEF /* Supplier+CoreDataProperties.swift */; };
+		FF3C26E71D138FF400EFDDEF /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26E51D138FF400EFDDEF /* Supplier.swift */; };
+		FF3C26EA1D16AE7700EFDDEF /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26E91D16AE7700EFDDEF /* CoreDataTableViewController.swift */; };
+		FF3C26EC1D16AF4500EFDDEF /* SuppliersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26EB1D16AF4500EFDDEF /* SuppliersViewController.swift */; };
+		FF3C26EE1D16B17000EFDDEF /* SupplierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26ED1D16B17000EFDDEF /* SupplierTableViewCell.swift */; };
+		FF3C26F01D16B65300EFDDEF /* no-image-featured-image.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3C26EF1D16B65300EFDDEF /* no-image-featured-image.png */; };
+		FF3C26F21D16BB5C00EFDDEF /* EditSupplierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26F11D16BB5C00EFDDEF /* EditSupplierViewController.swift */; };
+		FF3C26F41D16BBB600EFDDEF /* ExtendUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26F31D16BBB600EFDDEF /* ExtendUITextField.swift */; };
+		FF3C26F61D180F1900EFDDEF /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26F51D180F1900EFDDEF /* ProductTableViewCell.swift */; };
+		FF3C26F91D180F6C00EFDDEF /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26F71D180F6C00EFDDEF /* Product+CoreDataProperties.swift */; };
+		FF3C26FA1D180F6C00EFDDEF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26F81D180F6C00EFDDEF /* Product.swift */; };
+		FF3C26FC1D18124F00EFDDEF /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26FB1D18124F00EFDDEF /* ProductsViewController.swift */; };
+		FF3C26FE1D18185F00EFDDEF /* EditProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26FD1D18185F00EFDDEF /* EditProductViewController.swift */; };
+		FF3C27001D18434E00EFDDEF /* MUSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C26FF1D18434E00EFDDEF /* MUSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF3C26CC1D138F6900EFDDEF /* SuppliersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuppliersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3C26CF1D138F6900EFDDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF3C26D11D138F6900EFDDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF3C26D41D138F6900EFDDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF3C26D71D138F6900EFDDEF /* SuppliersTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuppliersTest.xcdatamodel; sourceTree = "<group>"; };
 		FF3C26D91D138F6900EFDDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3C26DC1D138F6900EFDDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3C26DE1D138F6900EFDDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3C26E41D138FF400EFDDEF /* Supplier+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Supplier+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF3C26E51D138FF400EFDDEF /* Supplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		FF3C26E91D16AE7700EFDDEF /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		FF3C26EB1D16AF4500EFDDEF /* SuppliersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuppliersViewController.swift; sourceTree = "<group>"; };
+		FF3C26ED1D16B17000EFDDEF /* SupplierTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplierTableViewCell.swift; sourceTree = "<group>"; };
+		FF3C26EF1D16B65300EFDDEF /* no-image-featured-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image-featured-image.png"; sourceTree = "<group>"; };
+		FF3C26F11D16BB5C00EFDDEF /* EditSupplierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditSupplierViewController.swift; sourceTree = "<group>"; };
+		FF3C26F31D16BBB600EFDDEF /* ExtendUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendUITextField.swift; sourceTree = "<group>"; };
+		FF3C26F51D180F1900EFDDEF /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FF3C26F71D180F6C00EFDDEF /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF3C26F81D180F6C00EFDDEF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FF3C26FB1D18124F00EFDDEF /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		FF3C26FD1D18185F00EFDDEF /* EditProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProductViewController.swift; sourceTree = "<group>"; };
+		FF3C26FF1D18434E00EFDDEF /* MUSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUSelectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,36 @@
 		FF3C26CE1D138F6900EFDDEF /* SuppliersTest */ = {
 			isa = PBXGroup;
 			children = (
+				FF3C26E81D13900200EFDDEF /* CoreData */,
+				FF3C26EB1D16AF4500EFDDEF /* SuppliersViewController.swift */,
 				FF3C26CF1D138F6900EFDDEF /* AppDelegate.swift */,
-				FF3C26D11D138F6900EFDDEF /* ViewController.swift */,
 				FF3C26D31D138F6900EFDDEF /* Main.storyboard */,
+				FF3C26FF1D18434E00EFDDEF /* MUSelectorViewController.swift */,
+				FF3C26FB1D18124F00EFDDEF /* ProductsViewController.swift */,
+				FF3C26F51D180F1900EFDDEF /* ProductTableViewCell.swift */,
+				FF3C26F11D16BB5C00EFDDEF /* EditSupplierViewController.swift */,
+				FF3C26FD1D18185F00EFDDEF /* EditProductViewController.swift */,
+				FF3C26F31D16BBB600EFDDEF /* ExtendUITextField.swift */,
+				FF3C26ED1D16B17000EFDDEF /* SupplierTableViewCell.swift */,
 				FF3C26D91D138F6900EFDDEF /* Assets.xcassets */,
+				FF3C26EF1D16B65300EFDDEF /* no-image-featured-image.png */,
 				FF3C26DB1D138F6900EFDDEF /* LaunchScreen.storyboard */,
 				FF3C26DE1D138F6900EFDDEF /* Info.plist */,
-				FF3C26D61D138F6900EFDDEF /* SuppliersTest.xcdatamodeld */,
 			);
 			path = SuppliersTest;
+			sourceTree = "<group>";
+		};
+		FF3C26E81D13900200EFDDEF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FF3C26F71D180F6C00EFDDEF /* Product+CoreDataProperties.swift */,
+				FF3C26F81D180F6C00EFDDEF /* Product.swift */,
+				FF3C26D61D138F6900EFDDEF /* SuppliersTest.xcdatamodeld */,
+				FF3C26E91D16AE7700EFDDEF /* CoreDataTableViewController.swift */,
+				FF3C26E41D138FF400EFDDEF /* Supplier+CoreDataProperties.swift */,
+				FF3C26E51D138FF400EFDDEF /* Supplier.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3C26F01D16B65300EFDDEF /* no-image-featured-image.png in Resources */,
 				FF3C26DD1D138F6900EFDDEF /* LaunchScreen.storyboard in Resources */,
 				FF3C26DA1D138F6900EFDDEF /* Assets.xcassets in Resources */,
 				FF3C26D51D138F6900EFDDEF /* Main.storyboard in Resources */,
@@ -138,8 +186,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3C26D21D138F6900EFDDEF /* ViewController.swift in Sources */,
+				FF3C26FE1D18185F00EFDDEF /* EditProductViewController.swift in Sources */,
+				FF3C26F21D16BB5C00EFDDEF /* EditSupplierViewController.swift in Sources */,
+				FF3C26E61D138FF400EFDDEF /* Supplier+CoreDataProperties.swift in Sources */,
+				FF3C26E71D138FF400EFDDEF /* Supplier.swift in Sources */,
+				FF3C26FC1D18124F00EFDDEF /* ProductsViewController.swift in Sources */,
+				FF3C27001D18434E00EFDDEF /* MUSelectorViewController.swift in Sources */,
+				FF3C26F91D180F6C00EFDDEF /* Product+CoreDataProperties.swift in Sources */,
+				FF3C26EC1D16AF4500EFDDEF /* SuppliersViewController.swift in Sources */,
+				FF3C26FA1D180F6C00EFDDEF /* Product.swift in Sources */,
 				FF3C26D81D138F6900EFDDEF /* SuppliersTest.xcdatamodeld in Sources */,
+				FF3C26EA1D16AE7700EFDDEF /* CoreDataTableViewController.swift in Sources */,
+				FF3C26F41D16BBB600EFDDEF /* ExtendUITextField.swift in Sources */,
+				FF3C26F61D180F1900EFDDEF /* ProductTableViewCell.swift in Sources */,
+				FF3C26EE1D16B17000EFDDEF /* SupplierTableViewCell.swift in Sources */,
 				FF3C26D01D138F6900EFDDEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
